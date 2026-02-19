@@ -8,7 +8,7 @@
 
      <link rel="stylesheet" href="portfolio.css">
     <!-- 1. AOS CSS added in head -->
-    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="container" data-aos="fade-down">
@@ -30,7 +30,7 @@
     <!--=== Header's Section Ends ===-->
      <!-- landing section starts! -->
 
-      <section class="landing-section-container" data-aos="fade-up">
+      <section class="landing-section-container"data-aos="fade-up">
         <div class="detail-div">
         <div class="personal-details">
         <h3>Hello I'm <br><span class="name-span">Juma Oriho Marko</span></h3>
@@ -54,7 +54,7 @@
 
        <!--=== Header's Section Ends ===-->
        <!-- About section Starts -->
-        <section class="About-container" data-aos="fade-left">
+        <section class="About-container" data-aos="fade-down">
             <div class="about-img">
             <img src="./Promotional and cover art images with @sam_osprime….jpeg" class="about-pro" alt="">
             <div class="icon-container">
@@ -115,7 +115,7 @@
            <!-- Services section end -->
 
            <!-- ====Portfolio section starts==== -->
-            <section class="Portfolio-section">
+            <section class="Portfolio-section" data-aos="fade-left">
                 <h5>MY Work</h5>
                 <h2>Featured-Work</h2>
                 <div class="Portfolio-Container">
@@ -281,7 +281,7 @@
         </section>
 
         <!-- skill section end-->
-        <section class="conts">
+        <section class="conts" data-aos="fade-up">
             <h2>Get In Tuoch!</h2>
             <div class="general-contacts">
                 <div class="contacts">
@@ -334,17 +334,20 @@
         </div>
     </footer>
 
-        <!-- 3. AOS JavaScript & Initialization -->
-    <script src="https://cdn.jsdelivr.net"></script>
-    <script>
-        // Initialize AOS with a default duration
-        AOS.init({
-            duration: 1000, // Animation speed in ms
-            once: false,    // Re-animate when scrolling back up
-        });
-    </script>
+      <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- Initialize AOS -->
+  <script>
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      once: true,     // whether animation should happen only once
+      offset: 100     // offset (in px) from the original trigger point
+    });
+  </script>
     
     </body>
 
 </html>
+
 
