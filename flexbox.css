@@ -1,0 +1,16 @@
+.div-1, .div-2, .div-3{
+    width: 500px;
+    height: 255px;
+    background-color: black;
+
+}
+
+.container{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}

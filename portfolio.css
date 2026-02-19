@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 80px;
+    align-items: center;
+    overflow: hidden;
+}
+.logo h2{
+    font-size: 2rem;
+    text-decoration: underline;
+    color: black;
+    align-items: center;
+}
+.logo-span{
+    color: blueviolet;
+
+}
+.menus-container{
+    display: flex;
+    gap: 20px;
+    height: 60px;
+    align-items: center;
+
+}
+.nav-bar a{
+
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    color:rgb(91, 91, 91) ;
+}
+.nav-bar a:hover{
+    text-decoration: underline blueviolet ;
+    transition: all 0.3 ease-out;
+}
+
+.btn{
+    border: none;
+    background: blueviolet;
+    padding: 10px 40px;
+    color: white;
+    transition: all 0.5s ease-out;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: white;
+    border: solid 2px blueviolet;
+    color: blueviolet;
+
+}
+
+/* Landing Section Style */
+
+.landing-section-container{
+    display: flex;
+    padding: 20px 150px;
+    height: 80vh;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    gap: 20px;
+
+}
+.detail-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name-span{
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.btn{
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 40px;
+    transition: all 0.5s ease-out;
+    border-radius: 15px;
+}
+
+.personal-exp{
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    padding: 10px 0;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.personal-exp div{
+    background-color: #f4f4f4;
+    width: 35%;
+    padding: 10px 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 3px;
+
+}
+
+.img-div img{
+    width: 300px;
+    height: 300px;
+}
+/* About section style starts */
+
+.About-container{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    gap: 10px;
+    background-color: bisque;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+
+}
+
+.icon-container img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.about-pro{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+
+}
+.icon-container{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+}
+
+.icon-container img:hover{
+    transform: scale(75%);
+}
+
+.about-details h3{
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+
+
+.getintouch-btn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 30px;
+    background: blueviolet;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+
+.getintouch-btn:hover{
+    background: rgb(255, 255, 255);
+    color: blueviolet;
+}
+
+.cv-btn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 30px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    transition: all 0.5s ease-out;
+}
+
+.cv-btn:hover{
+    background: blueviolet;
+    color: white;
+}
+/* SERVICE STYLES START */
+
+.services-section{
+margin: 20PX 100PX;
+
+}
+.services-section .Cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    gap: 20px;
+    padding: 20 20px ;
+    margin-bottom: 30px;
+}
+
+.services-section h5{
+    color: blueviolet;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+.services-section h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    gap: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+.SER-TITLE{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+.services-section img{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+}
+.services-section div{
+    padding: 20px 20px;
+    background-color: aliceblue;
+    box-shadow: 4px 0 10px rgb(89, 87, 87);
+}
+.services-section p{
+    margin-top: 10px;
+}
+/* SERVICE STYLES ENDS */
+
+/* PORTFOLIO SECTION STYLES START */
+
+.Portfolio-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(162, 159, 164);
+}
+.Portfolio-section h5{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+.Portfolio-section h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10px;
+    gap: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.Portfolio-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.Portfolio-Container img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 4px 4px rgb(91, 91, 91)
+}
+    
+.Group-1, .Group-2{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+/*PORTFOLIO SECTION ENDS*/
+
+
+/* skills section start */
+
+.skills-section img{
+    width: 80px;
+    height: 80px;
+}   
+
+.skills-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 180vh;
+    align-items: center;
+    gap: 20px;
+    /* background-color: rgb(162, 159, 164); */
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.web-design-icon, .web-dev-icon, .ui-ux-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    border: solid 3px blueviolet;
+    border-radius: 50px;
+    margin: 20px 0;
+
+
+}
+.web-design-icon img, .web-dev-icon img, .ui-ux-icon img{
+    width: 40px;
+    height: 40px;
+}
+.ui-ux,.web-design, .web-dev{
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+
+.tools-container{
+    display: flex;
+    flex-direction: column;
+}
+.tools-container h2{
+    color: blueviolet;
+    margin-bottom: 20px;
+
+}
+.tools{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.ui-ux-tool, .html-tool, .css-tool, .elementor{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+.ui-ux-tool img, .html-tool img, .css-tool img, .elementor img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.tool-bar, .css-tool, .tool-bar, .tool-bar{
+    width: 300px;
+    height: 25px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+
+.bar1{
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    width: 95%;
+}
+
+.bar2{
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    width: 90%;
+}
+.bar3{
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    width: 80%;
+}
+.bar4{
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    width: 50%;
+}
+/* skills section ends */
+
+
+/* CONTCTS SECTIONS STARTS */
+
+.conts{
+    background-color: #a29fa4;
+    height: 70vh;
+    padding: 20px;
+}
+.general-contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.conts-g1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #565454;
+}
+.contacts img{
+    width: 30px;
+    height: 30px;
+}
+
+input, textarea{
+    width: 500px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    padding: 10px 0;
+}
+
